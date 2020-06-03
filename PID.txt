@@ -1,0 +1,153 @@
+16:13:29.790 : PID Autotune start
+16:17:26.269 : Printer reset detected - initializing
+16:17:26.269 : start
+16:17:26.269 : echo:Marlin1.0.2
+16:17:26.273 : echo: Last Updated: Aug 18 2019 22:11:50 | Author: SW & CM
+16:17:26.273 : Compiled: Aug 18 2019
+16:17:26.277 : echo: Free Memory: 3432  PlannerBufferBytes: 1232
+16:17:26.277 : echo:Hardcoded Default Settings Loaded
+16:17:26.277 : echo:Steps per unit:
+16:17:26.282 : echo:  M92 X80.00 Y80.00 Z400.00 E93.00
+16:17:26.282 : echo:Maximum feedrates (mm/s):
+16:17:26.286 : echo:  M203 X250.00 Y250.00 Z2.00 E22.00
+16:17:26.286 : echo:Maximum Acceleration (mm/s2):
+16:17:26.286 : echo:  M201 X1000 Y1000 Z5 E1000
+16:17:26.290 : echo:Acceleration: S=acceleration, T=retract acceleration
+16:17:26.290 : echo:  M204 S500.00 T500.00
+16:17:26.298 : echo:Advanced variables: S=Min feedrate (mm/s), T=Min travel feedrate (mm/s), B=minimum segment time (ms), X=maximum XY jerk (mm/s),  Z=maximum Z jerk (mm/s),  E=maximum E jerk (mm/s)
+16:17:26.302 : echo:  M205 S0.00 T0.00 B20000 X20.00 Z0.40 E5.00
+16:17:26.302 : echo:Home offset (mm):
+16:17:26.302 : echo:  M206 X0.00 Y0.00 Z0.00
+16:17:26.302 : echo:PID settings:
+16:17:26.305 : echo:   M301 P22.20 I1.08 D114.00
+16:17:30.049 : echo:SD init fail
+16:17:30.143 : FIRMWARE_NAME:Marlin V1.0.2; Sprinter/grbl mashup for gen6 FIRMWARE_URL:https://github.com/MarlinFirmware/Marlin PROTOCOL_VERSION:1.0 MACHINE_TYPE:FolgerTech i3 2020 EXTRUDER_COUNT:1 UUID:00000000-0000-0000-0000-000000000000
+16:17:30.149 : X:0.00 Y:0.00 Z:0.00 E:0.00 Count X: 0.00 Y:0.00 Z:0.00
+16:17:30.149 : echo:Active Extruder: 0
+16:17:30.151 : Begin file list
+16:17:30.152 : End file list
+16:17:30.164 : echo:Active Extruder: 0
+
+
+
+
+
+
+
+
+@200
+M303 S200 C5
+17:41:16.240 : PID Autotune start
+17:45:07.929 : bias: 207 d: 47 min: 194.38 max: 201.43
+17:45:50.214 : bias: 226 d: 28 min: 194.38 max: 201.47
+17:46:31.843 : bias: 217 d: 37 min: 198.75 max: 201.65
+17:46:31.847 : Ku: 32.47 Tu: 41.62
+17:46:31.848 : Classic PID
+17:46:31.848 : Kp: 19.48
+17:46:31.848 : Ki: 0.94
+17:46:31.848 : Kd: 101.34
+17:46:52.988 : bias: 206 d: 48 min: 199.45 max: 200.98
+17:46:52.988 : Ku: 79.94 Tu: 21.13
+17:46:52.988 : Classic PID
+17:46:52.988 : Kp: 47.96
+17:46:52.992 : Ki: 4.54
+17:46:52.992 : Kd: 126.72
+17:47:15.116 : bias: 205 d: 49 min: 199.34 max: 201.29
+17:47:15.116 : Ku: 63.70 Tu: 22.12
+17:47:15.116 : Classic PID
+17:47:15.116 : Kp: 38.22
+17:47:15.116 : Ki: 3.46
+17:47:15.116 : Kd: 105.68
+17:47:15.120 : PID Autotune finished! Put the last Kp, Ki and Kd constants from above into Configuration.h
+17:47:15.239 : Error:checksum mismatch, Last Line: 37
+17:47:15.239 : Resend: 38
+
+M301 P38.22 I3.46 D105.68
+M500
+
+
+
+
+@220
+M303 S220 C5
+18:06:47.083 : PID Autotune start
+18:13:41.229 : bias: 235 d: 19 min: 213.51 max: 220.81
+18:15:13.443 : bias: 235 d: 19 min: 213.33 max: 220.38
+18:15:47.371 : bias: 235 d: 19 min: 218.75 max: 220.31
+18:15:47.371 : Ku: 30.97 Tu: 33.92
+18:15:47.371 : Classic PID
+18:15:47.371 : Kp: 18.58
+18:15:47.371 : Ki: 1.10
+18:15:47.371 : Kd: 78.76
+18:16:20.477 : bias: 235 d: 19 min: 218.67 max: 220.25
+18:16:20.477 : Ku: 30.66 Tu: 33.10
+18:16:20.480 : Classic PID
+18:16:20.480 : Kp: 18.40
+18:16:20.480 : Ki: 1.11
+18:16:20.480 : Kd: 76.10
+18:16:52.443 : bias: 235 d: 19 min: 218.75 max: 220.31
+18:16:52.447 : Ku: 30.97 Tu: 31.96
+18:16:52.447 : Classic PID
+18:16:52.447 : Kp: 18.58
+18:16:52.447 : Ki: 1.16
+18:16:52.447 : Kd: 74.22
+18:16:52.451 : PID Autotune finished! Put the last Kp, Ki and Kd constants from above into Configuration.h
+
+
+@220
+M303 S220 C5
+18:22:58.707 : PID Autotune start
+18:29:51.862 : bias: 235 d: 19 min: 213.85 max: 220.94
+18:31:13.646 : bias: 235 d: 19 min: 213.85 max: 220.38
+18:31:42.983 : bias: 235 d: 19 min: 218.83 max: 220.38
+18:31:42.983 : Ku: 31.28 Tu: 29.33
+18:31:42.983 : Classic PID
+18:31:42.983 : Kp: 18.77
+18:31:42.984 : Ki: 1.28
+18:31:42.984 : Kd: 68.80
+18:32:11.010 : bias: 235 d: 19 min: 218.98 max: 220.50
+18:32:11.010 : Ku: 31.92 Tu: 28.02
+18:32:11.010 : Classic PID
+18:32:11.010 : Kp: 19.15
+18:32:11.010 : Ki: 1.37
+18:32:11.013 : Kd: 67.08
+18:32:40.510 : bias: 235 d: 19 min: 218.83 max: 220.38
+18:32:40.510 : Ku: 31.28 Tu: 29.49
+18:32:40.510 : Classic PID
+18:32:40.511 : Kp: 18.77
+18:32:40.515 : Ki: 1.27
+18:32:40.515 : Kd: 69.18
+18:32:40.515 : PID Autotune finished! Put the last Kp, Ki and Kd constants from above into Configuration.h
+M301 P18.77 I1.27 D69.18
+M500
+
+
+
+@230
+M303 S230 C5
+18:36:07.605 : echo:Active Extruder: 0
+18:36:41.055 : PID Autotune start
+18:48:22.426 : bias: 235 d: 19 min: 220.56 max: 230.73
+18:51:29.105 : bias: 235 d: 19 min: 220.88 max: 230.21
+18:52:23.684 : bias: 235 d: 19 min: 227.50 max: 230.21
+18:52:23.684 : Ku: 17.86 Tu: 54.56
+18:52:23.684 : Classic PID
+18:52:23.684 : Kp: 10.72
+18:52:23.684 : Ki: 0.39
+18:52:23.684 : Kd: 73.10
+18:53:32.192 : bias: 235 d: 19 min: 227.50 max: 230.21
+18:53:32.192 : Ku: 17.86 Tu: 68.48
+18:53:32.192 : Classic PID
+18:53:32.192 : Kp: 10.72
+18:53:32.192 : Ki: 0.31
+18:53:32.192 : Kd: 91.76
+18:54:43.815 : bias: 235 d: 19 min: 227.50 max: 230.21
+18:54:43.815 : Ku: 17.86 Tu: 71.60
+18:54:43.815 : Classic PID
+18:54:43.815 : Kp: 10.72
+18:54:43.815 : Ki: 0.30
+18:54:43.818 : Kd: 95.93
+18:54:43.818 : PID Autotune finished! Put the last Kp, Ki and Kd constants from above into Configuration.h
+18:54:44.737 : Error:checksum mismatch, Last Line: 34
+M301 P10.72 I0.30 D95.93
+M500
