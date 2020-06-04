@@ -151,3 +151,85 @@ M303 S230 C5
 18:54:44.737 : Error:checksum mismatch, Last Line: 34
 M301 P10.72 I0.30 D95.93
 M500
+
+14:49:01.224 : PID Autotune start
+14:56:21.147 : bias: 235 d: 19 min: 221.00 max: 231.35
+14:57:44.407 : bias: 235 d: 19 min: 221.06 max: 230.42
+14:58:08.665 : bias: 235 d: 19 min: 228.13 max: 230.31
+14:58:08.665 : Ku: 22.12 Tu: 24.25
+14:58:08.665 : Classic PID
+14:58:08.665 : Kp: 13.27
+14:58:08.665 : Ki: 1.09
+14:58:08.668 : Kd: 40.22
+14:58:35.543 : bias: 235 d: 19 min: 227.81 max: 230.52
+14:58:35.543 : Ku: 17.86 Tu: 26.87
+14:58:35.543 : Classic PID
+14:58:35.543 : Kp: 10.72
+14:58:35.543 : Ki: 0.80
+14:58:35.543 : Kd: 36.00
+14:59:02.422 : bias: 235 d: 19 min: 227.97 max: 230.42
+14:59:02.422 : Ku: 19.76 Tu: 26.87
+14:59:02.422 : Classic PID
+14:59:02.422 : Kp: 11.86
+14:59:02.422 : Ki: 0.88
+14:59:02.422 : Kd: 39.83
+14:59:02.426 : PID Autotune finished! Put the last Kp, Ki and Kd constants from above into Configuration.h
+14:59:02.594 : Error:checksum mismatch, Last Line: 27
+M301 P11.86 I0.88 D39.83
+
+
+
+15:09:07.037 : PID Autotune start
+15:16:04.267 : bias: 235 d: 19 min: 221.31 max: 231.56
+15:17:21.628 : bias: 235 d: 19 min: 221.56 max: 230.63
+15:17:49.327 : bias: 235 d: 19 min: 227.50 max: 230.42
+15:17:49.327 : Ku: 16.59 Tu: 27.69
+15:17:49.327 : Classic PID
+15:17:49.327 : Kp: 9.95
+15:17:49.331 : Ki: 0.72
+15:17:49.331 : Kd: 34.45
+15:18:12.929 : bias: 235 d: 19 min: 228.91 max: 230.42
+15:18:12.929 : Ku: 32.03 Tu: 23.59
+15:18:12.929 : Classic PID
+15:18:12.929 : Kp: 19.22
+15:18:12.929 : Ki: 1.63
+15:18:12.932 : Kd: 56.68
+15:18:43.904 : bias: 235 d: 19 min: 227.50 max: 230.94
+15:18:43.904 : Ku: 14.08 Tu: 30.97
+15:18:43.904 : Classic PID
+15:18:43.909 : Kp: 8.45
+15:18:43.909 : Ki: 0.55
+15:18:43.909 : Kd: 32.69
+15:18:43.912 : PID Autotune finished! Put the last Kp, Ki and Kd constants from above into Configuration.h
+M301 P8.45 I0.55 D32.69
+
+
+
+15:33:57.637 : echo:Active Extruder: 0
+15:35:10.590 : PID Autotune start
+15:41:47.523 : bias: 234 d: 20 min: 220.88 max: 231.67
+15:43:08.325 : bias: 235 d: 19 min: 221.00 max: 230.94
+15:43:41.267 : bias: 235 d: 19 min: 227.50 max: 230.83
+15:43:41.267 : Ku: 14.51 Tu: 32.93
+15:43:41.271 : Classic PID
+15:43:41.271 : Kp: 8.71
+15:43:41.271 : Ki: 0.53
+15:43:41.271 : Kd: 35.85
+15:44:09.456 : bias: 235 d: 19 min: 227.81 max: 230.83
+15:44:09.460 : Ku: 16.02 Tu: 28.18
+15:44:09.460 : Classic PID
+15:44:09.460 : Kp: 9.61
+15:44:09.460 : Ki: 0.68
+15:44:09.460 : Kd: 33.85
+15:44:38.301 : bias: 235 d: 19 min: 228.28 max: 231.04
+15:44:38.306 : Ku: 17.53 Tu: 28.84
+15:44:38.306 : Classic PID
+15:44:38.306 : Kp: 10.52
+15:44:38.306 : Ki: 0.73
+15:44:38.306 : Kd: 37.91
+15:44:38.310 : PID Autotune finished! Put the last Kp, Ki and Kd constants from above into Configuration.h
+15:44:39.990 : Error:checksum mismatch, Last Line: 47
+15:44:39.990 : Resend: 48
+
+
+M303 E0 S240 C20
