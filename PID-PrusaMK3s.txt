@@ -1,0 +1,12 @@
+//For White PET-G, without the E3D sock
+>>>M303 E0 S250 C10
+ bias: 84 d: 84 min: 245.31 max: 253.23
+ Ku: 27.02 Tu: 24.92
+ Classic PID
+ Kp: 16.21
+ Ki: 1.30
+ Kd: 50.49
+PID Autotune finished! Put the last Kp, Ki and Kd constants from above into Configuration.h
+
+M301 E0 P16.21 I1.30 D50.49
+M500
