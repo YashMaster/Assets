@@ -10,3 +10,18 @@ PID Autotune finished! Put the last Kp, Ki and Kd constants from above into Conf
 
 M301 E0 P16.21 I1.30 D50.49
 M500
+
+
+//For Black PET-G, w/ the E3D sock. No fan on while this happened. 
+>>>M303 E0 S250 C10
+ bias: 85 d: 85 min: 246.35 max: 253.65
+ Ku: 29.68 Tu: 23.63
+ Classic PID
+ Kp: 17.81
+ Ki: 1.51
+ Kd: 52.60
+PID Autotune finished! Put the last Kp, Ki and Kd constants from above into Configuration.h
+ok
+MMU not responding - DISABLED
+M301 E0 P17.81 I1.51 D53.30
+M500
